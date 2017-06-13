@@ -1,0 +1,32 @@
++++
+archetypeDir = "archetypes" # 文章模板目录
+baseURL = "" # 博客网址
+buildDrafts = false # 是否输出草稿
+buildFuture = false # 是否输出发布日期在未来的文章
+buildExpired = false # 是否输出过期文章（你可以在文章内设定一个过期日）
+relativeURLs = false # 全部输出相对地址
+canonifyURLs = false # 静态资源输出绝对地址（好像是这样）
+config = "config.toml" #配置文件名，后缀可以是 yaml|json|toml
+contentDir = "content" # 指定放文章等的目录
+dataDir = "data" # 存储有关用户信息等数据的目录，一般由主题指定
+defaultContentLanguage = "en" # 默认语言，适用于多语言博客
+disableLiveReload = false # 是否关闭本地调试时的网页自动更新
+disableRSS = false # 是否关闭 RSS
+disableSitemap = false # 是否关闭 sitemap
+disable404 = false # 是否关闭跳转 404 页面
+disableHugoGeneratorInject = false # 是否关闭首页 Hugo 版本号 meta 的输出
+enableEmoji = false # 启用 emoji 支持
+metaDataFormat = "toml" # 文章 Front-matter 格式
+paginate = 10 # 每页文章数
+paginatePath = "page" # 分页的网址
+permalinks = # 固定链接格式
+publishDir = "public" # 输出文件夹
+sitemap: # sitemap 地址
+staticDir = "static" # 静态资源文件夹
+themesDir = "themes" # 主题文件夹
+theme = "" # 主题名
+title = "" # 网站名称
+uglyURLs = false # 是否将文章链接显示为 /index.html 结尾
+hasCJKLanguage = false # 网站多用中日韩语的最好打开
+watch = true # 本地调试时监视文件变动
++++
