@@ -1,0 +1,5 @@
+#bin bash
+
+cd ./content/
+
+sed -i "" 's/"//2;s/"//1;s/+++/---/g;s/ = /: /' *.md
