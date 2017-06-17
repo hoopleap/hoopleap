@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://hoopleap.github.io/hoopleap/sitemap.xml
