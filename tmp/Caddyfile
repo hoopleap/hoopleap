@@ -1,0 +1,14 @@
+https://sqh.me {
+    tls hoopleap@github.io
+    gzip
+    root /Users/chenjunlong/OneDrive - jp410/Dropbox/HUGO/public
+    git github.com/hoopleap/hoopleap {
+        path /Users/chenjunlong/OneDrive - jp410/Dropbox/HUGO/public
+        then hugo --destination=/Users/chenjunlong/OneDrive - jp410/Dropbox/HUGO/public
+        hook /webhook GitHubSecretKey
+        hook_type github
+        clone_args --recursive
+        pull_args --recurse-submodules
+    }
+    hugo
+}
